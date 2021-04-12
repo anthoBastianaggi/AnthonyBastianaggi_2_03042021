@@ -1,0 +1,131 @@
+.header {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1440px;
+}
+
+.navbar-collapse {
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-item:first-child .nav-link, .nav-item:last-child .nav-link {
+    color: #0065FC;
+}
+
+.hosting-item .nav-link:hover, .activity-item .nav-link:hover {
+    border-top: 3px solid #0065FC;
+}
+
+.hosting-item .nav-link.active {
+    border-top: 3px solid #0065FC;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    margin-top: -16px;
+    padding-top: 21px;
+    border-top: 3px solid transparent;
+}
+
+.nav-link:hover{
+    color: #0065FC;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: block;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 50%;
+        text-align: center;
+    }
+
+    .hosting-item {
+        position: absolute;
+        left: 0;
+        margin-top: 1rem;
+    }
+
+    .activity-item {
+        position: absolute;
+        right: 0;
+        margin-top: 1rem;
+    }
+
+    .hosting-item .nav-link, .activity-item .nav-link {
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .hosting-item .nav-link:hover, .activity-item .nav-link:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .hosting-item .nav-link.active {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .nav-item:last-child {
+        position: absolute;
+        top: 0px;
+        display: flex;
+        right: 0;
+        padding: 1rem 2rem;
+        width: auto;
+    }
+
+    .nav-link {
+        margin-top: 0;
+        padding-top: 0.5rem;
+        border-top: none;
+    }
+}
