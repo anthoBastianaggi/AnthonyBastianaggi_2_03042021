@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px) {
+    .form-control {
+        max-width: 222px;
+        width: 100%;
+    }
+
+    .btn-primary {
+        padding: 0;
+        min-width: 48px;
+        width: 48px;
+    }
+
+   .icon-search {
+       display: block;
+   }
+
+   .label {
+       display: none;
+   }
+
+    fieldset {
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+    
+    .legend {
+        position: initial;
+        margin-bottom: 15px;
+    }
+}
