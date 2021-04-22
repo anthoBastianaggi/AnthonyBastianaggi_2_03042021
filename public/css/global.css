@@ -18,4 +18,8 @@ body {
     .main {
         padding: 117px 1rem 1rem;
     }
+
+    .section {
+        margin-top: 2rem;
+    }
 }

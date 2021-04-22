@@ -1,4 +1,9 @@
 @media screen and (max-width: 640px) {
+    .subtitle {
+        margin: 0.5rem 0 1.8rem 0;
+        font-size: 0.95rem;
+    }
+
     .form-control {
         max-width: 222px;
         width: 100%;
