@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 640px) {
     .main {
-        padding: 117px 1rem 1rem;
+        padding: 117px 1.5rem 1.5rem;
     }
 
     .section {
