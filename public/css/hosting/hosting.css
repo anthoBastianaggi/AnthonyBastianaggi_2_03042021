@@ -92,3 +92,56 @@
     padding: 2rem;
     margin-left: 1rem;
 }
+
+.aside .hosting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.aside .hosting-content {
+    margin-bottom: 0;
+}
+
+.icon-aside {
+    font-size: 29px;
+}
+
+.card-aside {
+    flex: auto;
+}
+
+.link-aside {
+    display: flex;
+}
+
+.header-aside {
+    width: 33.333%;
+    min-width: 140px;
+    max-height: 160px;
+}
+
+.image-aside {
+    border-radius: 1rem 0 0 1rem;
+    height: 160px;
+}
+
+.content-aside {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px 10px;
+}
+
+.content-aside .card-title{
+    margin: 5px 0 5px 10px;
+}
+
+.card-content .description-aside {
+    margin: 0 10px;
+}
+
+.footer-aside {
+    position: absolute;
+    bottom: 0;
+}
