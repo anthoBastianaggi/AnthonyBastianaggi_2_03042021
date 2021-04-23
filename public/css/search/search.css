@@ -87,7 +87,7 @@ fieldset {
 
 .btn-tertiary:hover {
     background-color: #f3f8ff;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .btn-tertiary:last-child {

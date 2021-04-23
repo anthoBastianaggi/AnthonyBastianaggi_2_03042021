@@ -1,4 +1,9 @@
 @media screen and (max-width: 640px) {
+    #search-section {
+        padding: 0 1.5rem;
+        width: auto;
+    }
+
     .subtitle {
         margin: 0.5rem 0 1.8rem 0;
         font-size: 0.95rem;

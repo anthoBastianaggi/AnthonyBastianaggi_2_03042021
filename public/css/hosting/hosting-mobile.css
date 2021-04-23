@@ -1,7 +1,7 @@
 @media screen and (max-width: 640px) { 
     #hosting {
         flex-direction: column-reverse;
-        position: absolute;
+        position: relative;
         left: 0;
         right: 0;
     } 

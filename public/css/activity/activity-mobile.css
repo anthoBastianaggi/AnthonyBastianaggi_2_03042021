@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px) {
+    #activity {
+        padding: 0 1.5rem;
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    .activity-content {
+        flex-wrap: wrap;
+    }
+
+    .activity-column {
+        flex: auto;
+    }
+
+    .article-activity {
+        min-height: auto;
+    }
+
+    .image-activity,  .card-image-activity {
+        height: 100%;
+        max-height: 140px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    #activity {
+        padding: 0 1rem;
+    }
+}
