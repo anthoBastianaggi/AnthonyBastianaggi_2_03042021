@@ -1,0 +1,9 @@
+@media (min-width: 641px) and (max-width: 1080px) {
+    .footer-navigation {
+        flex-wrap: wrap;
+    }
+    
+    .footer-column {
+        width: 50%;
+    }
+}
