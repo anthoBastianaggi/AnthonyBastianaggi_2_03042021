@@ -17,8 +17,7 @@
         min-height: auto;
     }
 
-    .image-activity,  .card-image-activity {
-        height: 100%;
+    .picture, .card-picture, .card-picture-activity, .card-picture-image-activity {
         max-height: 140px;
     }
 }

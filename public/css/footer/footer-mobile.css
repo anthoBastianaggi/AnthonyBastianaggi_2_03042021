@@ -1,0 +1,21 @@
+@media screen and (max-width: 640px) {
+    .footer {
+        margin-top: 2rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-navigation {
+        flex-wrap: wrap;
+    }
+    
+    .footer-column {
+        width: 100%;
+    }
+    
+    .footer-link {
+        display: block;
+        margin: 1rem 0;
+        color: inherit;
+        text-decoration: none;
+    }
+}

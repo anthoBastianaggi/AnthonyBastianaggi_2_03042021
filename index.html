@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="Reservia est le point de départ de voyages inoubliables. Trouvez votre hébergement pour des vacances de rêve." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no" />
+    <link rel="icon" href="public/images/reservia.ico">
    
     <link rel="stylesheet" href="public/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="public/css/global.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="public/css/search/search.css">
     <link rel="stylesheet" href="public/css/hosting/hosting.css">
     <link rel="stylesheet" href="public/css/activity/activity.css">
+    <link rel="stylesheet" href="public/css/footer/footer.css">
 
     <link rel="stylesheet" href="public/css/hosting/hosting-laptop.css">
     <link rel="stylesheet" href="public/css/activity/activity-laptop.css">
@@ -19,11 +21,13 @@
     <link rel="stylesheet" href="public/css/search/search-tablet.css">
     <link rel="stylesheet" href="public/css/hosting/hosting-tablet.css">
     <link rel="stylesheet" href="public/css/activity/activity-tablet.css">
+    <link rel="stylesheet" href="public/css/footer/footer-tablet.css">
 
     <link rel="stylesheet" href="public/css/header/header-mobile.css">
     <link rel="stylesheet" href="public/css/search/search-mobile.css">
     <link rel="stylesheet" href="public/css/hosting/hosting-mobile.css">
     <link rel="stylesheet" href="public/css/activity/activity-mobile.css">
+    <link rel="stylesheet" href="public/css/footer/footer-mobile.css">
 
     <title>Reservia - Openclassrooms</title>
   </head>
@@ -95,7 +99,17 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre avec lit superposé et fenêtre vu sur la ville." />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/auberge-la-cannebiere-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/auberge-la-cannebiere-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/auberge-la-cannebiere-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/auberge-la-cannebiere-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/auberge-la-cannebiere-desktop.jpg"
+                                        alt="Chambre avec lit superposé et fenêtre vu sur la ville."
+                                        />
+                                    </picture>
                                     <figcaption>
                                         <h3 class="card-title">Auberge la Cannebière</h3>
                                     </figcaption>
@@ -118,7 +132,17 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre avec deux lits simples et fenêtre" />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-du-port-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-du-port-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-du-port-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-du-port-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/hotel-du-port-desktop.jpg" 
+                                        alt="Chambre avec deux lits simples et fenêtre." 
+                                        />
+                                    </picture>
                                     <figcaption>
                                         <h3 class="card-title">Hôtel du port</h3>
                                     </figcaption>
@@ -141,7 +165,17 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre avec lit double et placard avec miroir" />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-les-mouettes-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-les-mouettes-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-les-mouettes-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-les-mouettes-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/hotel-les-mouettes-desktop.jpg" 
+                                        alt="Chambre avec lit double et placard avec miroir." 
+                                        />
+                                    </picture>
                                     <figcaption>
                                         <h3 class="card-title">Hôtel Les mouettes</h3>
                                     </figcaption>
@@ -164,9 +198,19 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre avec lits double et cadre de la mer" />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-de-la-mer-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-de-la-mer-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-de-la-mer-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-de-la-mer-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/hotel-de-la-mer-desktop.jpg" 
+                                        alt="Chambre avec lits double et cadre de la mer." 
+                                        />
+                                    </picture>
                                     <figcaption>
-                                        <h3 class="card-title">Auberge de la mer</h3>
+                                        <h3 class="card-title">Hôtel de la mer</h3>
                                     </figcaption>
                                 </figure>
                             </header> 
@@ -187,7 +231,17 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre avec lit superposé en bois" />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/auberge-le-panier-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/auberge-le-panier-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/auberge-le-panier-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/auberge-le-panier-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/auberge-le-panier-desktop.jpg" 
+                                        alt="Chambre avec lit superposé en bois." 
+                                        />
+                                    </picture>
                                     <figcaption>
                                         <h3 class="card-title">Auberge Le Panier</h3>
                                     </figcaption>
@@ -210,7 +264,17 @@
                         <a href="#" class="card-link">
                             <header class="card-header">
                                 <figure class="card-figure">
-                                    <img class="card-image" src="public/images/hosting/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre avec deux lits simples, avec bureau et fenêtre" />
+                                    <picture>
+                                        <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-chez-amina-mobile.jpg">
+                                        <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-chez-amina-tablet.jpg">
+                                        <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-chez-amina-laptop.jpg">
+                                        <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-chez-amina-desktop.jpg">
+                                        <img 
+                                        class="card-image" 
+                                        src="public/images/hosting/xlarge/hotel-chez-amina-desktop.jpg"
+                                        alt="Chambre avec deux lits simples, avec bureau et fenêtre." 
+                                        />
+                                    </picture>
                                     <figcaption>
                                         <h3 class="card-title">Hôtel chez Amina</h3>
                                     </figcaption>
@@ -245,7 +309,17 @@
                     <article class="card card-aside">
                         <a href="#" class="card-link link-aside">
                             <header class="card-header header-aside">
-                                <img class="card-image image-aside" src="public/images/hosting/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre avec lit double, miroir au dessus du lit et fenêtre" />
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-le-soleil-du-matin-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-le-soleil-du-matin-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-le-soleil-du-matin-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-le-soleil-du-matin-desktop.jpg">
+                                    <img 
+                                    class="card-image image-aside" 
+                                    src="public/images/hosting/xlarge/hotel-le-soleil-du-matin-desktop.jpg" 
+                                    alt="Chambre avec lit double, miroir au dessus du lit et fenêtre." 
+                                    />
+                                </picture>
                             </header> 
                             <div class="card-content content-aside">
                                 <header>
@@ -266,7 +340,17 @@
                     <article class="card card-aside">
                         <a href="#" class="card-link link-aside">
                             <header class="card-header header-aside">
-                                <img class="card-image image-aside" src="public/images/hosting/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre avec lit double et porte" />
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="public/images/hosting/small/au-coeur-de-l-eau-chambres-d-hotes-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/au-coeur-de-l-eau-chambres-d-hotes-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/hosting/large/au-coeur-de-l-eau-chambres-d-hotes-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/au-coeur-de-l-eau-chambres-d-hotes-desktop.jpg">
+                                    <img 
+                                    class="card-image image-aside" 
+                                    src="public/images/hosting/xlarge/au-coeur-de-l-eau-chambres-d-hotes-desktop.jpg" 
+                                    alt="Chambre avec lit double et porte." 
+                                    />
+                                </picture>
                             </header> 
                             <div class="card-content content-aside">
                                 <header>
@@ -287,7 +371,17 @@
                     <article class="card card-aside">
                         <a href="#" class="card-link link-aside">
                             <header class="card-header header-aside">
-                                <img class="card-image image-aside" src="public/images/hosting/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre avec lit double" />
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="public/images/hosting/small/hotel-tout-bleu-et-blanc-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/hosting/medium/hotel-tout-bleu-et-blanc-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/hosting/large/hotel-tout-bleu-et-blanc-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/hosting/xlarge/hotel-tout-bleu-et-blanc-desktop.jpg">
+                                    <img 
+                                    class="card-image image-aside" 
+                                    src="public/images/hosting/xlarge/hotel-tout-bleu-et-blanc-desktop.jpg" 
+                                    alt="Chambre avec lit double." 
+                                    />
+                                </picture>
                             </header> 
                             <div class="card-content content-aside">
                                 <header>
@@ -317,8 +411,18 @@
                     <article class="card-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="card-image-activity" src="public/images/activity/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Port de plaisance remplis de bateau et ville en arrière plan." />
-                                <figcaption>
+                                <picture class="card-picture">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/vieux-port-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/vieux-port-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/vieux-port-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/vieux-port-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/vieux-port-desktop.jpg" 
+                                    alt="Port de plaisance remplis de bateau et ville en arrière plan." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
                                     <h3 class="card-title-activity">Vieux Port</h3>
                                 </figcaption>
                             </figure>
@@ -330,8 +434,18 @@
                     <article class="card-activity article-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="image-activity" src="public/images/activity/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Desert rocailleux avec un fort au loin." />
-                                <figcaption>
+                                <picture class="card-picture-image-activity">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/fort-de-pomegues-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/fort-de-pomegues-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/fort-de-pomegues-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/fort-de-pomegues-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/fort-de-pomegues-desktop.jpg" 
+                                    alt="Desert rocailleux avec un fort au loin." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
                                     <h3 class="card-title-activity">Fort de Pomègues</h3>
                                 </figcaption>
                             </figure>
@@ -341,9 +455,19 @@
                     <article class="card-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="card-image" src="public/images/activity/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Longue vue sur terre, ainsi que la mer et une ile en arrière plan" />
-                                <figcaption>
-                                    <h3 class="card-title-activity">Île du Frioul</h3>
+                                <picture class="card-picture-activity">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/iles-du-frioul-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/iles-du-frioul-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/iles-du-frioul-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/iles-du-frioul-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/iles-du-frioul-desktop.jpg" 
+                                    alt="Longue vue sur terre, ainsi que la mer et une ile en arrière plan." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
+                                    <h3 class="card-title-activity">Îles du Frioul</h3>
                                 </figcaption>
                             </figure>
                         </a>
@@ -354,8 +478,18 @@
                     <article class="card-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="card-image-activity" src="public/images/activity/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Paysage mélengeant roche et verdure ainsi qu'une mer bleu en arrière plan" />
-                                <figcaption>
+                                <picture class="card-picture">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/parc-national-des-calanques-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/parc-national-des-calanques-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/parc-national-des-calanques-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/parc-national-des-calanques-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/parc-national-des-calanques-desktop.jpg" 
+                                    alt="Paysage mélengeant roche et verdure ainsi qu'une mer bleu en arrière plan." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
                                     <h3 class="card-title-activity">Parc National des Calanques</h3>
                                 </figcaption>
                             </figure>
@@ -367,8 +501,18 @@
                     <article class="card-activity article-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="image-activity" src="public/images/activity/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Grande ville avec une colline et une église au loin." />
-                                <figcaption>
+                                <picture class="picture">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/notre-dame-de-la-garde-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/notre-dame-de-la-garde-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/notre-dame-de-la-garde-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/notre-dame-de-la-garde-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/notre-dame-de-la-garde-desktop.jpg"
+                                    alt="Grande ville avec une colline et une église au loin." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
                                     <h3 class="card-title-activity">Notre-Dame-de-la-Garde</h3>
                                 </figcaption>
                             </figure>
@@ -378,8 +522,18 @@
                     <article class="card-activity">
                         <a href="#" class="card-link-activity">
                             <figure class="card-figure-activity">
-                                <img class="card-image" src="public/images/activity/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Majestueux batiment au pierres blanches dôté d'une fontaine." />
-                                <figcaption>
+                                <picture class="picture">
+                                    <source media="(max-width: 640px)" srcset="public/images/activity/small/parc-longchamp-mobile.jpg">
+                                    <source media="(max-width: 1080px)" srcset="public/images/activity/medium/parc-longchamp-tablet.jpg">
+                                    <source media="(max-width: 1438px)" srcset="public/images/activity/large/parc-longchamp-laptop.jpg">
+                                    <source media="(min-width: 1439px)" srcset="public/images/activity/xlarge/parc-longchamp-desktop.jpg">
+                                    <img 
+                                    class="card-image-activity" 
+                                    src="public/images/activity/xlarge/parc-longchamp-desktop.jpg"
+                                    alt="Majestueux batiment au pierres blanches dôté d'une fontaine." 
+                                    />
+                                </picture>
+                                <figcaption class="card-figcaption-activity">
                                     <h3 class="card-title-activity">Parc Longchamp</h3>
                                 </figcaption>
                             </figure>
@@ -389,5 +543,48 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <nav class="footer-navigation">
+            <div class="footer-column">
+                <h2>A propos</h2>
+                <ul class="footer-link-list">
+                    <li>
+                        <a href="#" class="footer-link">Fonctionnement du site</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Conditions générales de vente</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Données et confidentialité</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h2>Nos hébergements</h2>
+                <ul class="footer-link-list">
+                    <li>
+                        <a href="#" class="footer-link">Charte qualité</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Soumettre votre hôtel</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h2>Assistance</h2>
+                <ul class="footer-link-list">
+                    <li>
+                        <a href="#" class="footer-link">Centre d'aide</a>
+                    </li>
+                   <li>
+                        <a href="#" class="footer-link">Nous contacter</a>
+                   </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
   </body>
 </html>
