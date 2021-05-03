@@ -95,15 +95,14 @@ fieldset {
 }
 
 .icon {
-    width: 46px;
-    height: 46px;
+    width: 47px;
+    height: 47px;
     border-radius: 100%;
-    border: 1px solid #DEEBFF;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    left: -11px;
+    left: -12px;
     position: relative;
     background-color: #DEEBFF;
     color: #0065FC;
