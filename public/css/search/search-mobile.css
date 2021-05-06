@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+    #search-section {
+        padding: 0 1.5rem;
+        width: auto;
+    }
+
+    .subtitle {
+        margin: 0.5rem 0 1.8rem 0;
+        font-size: 0.95rem;
+    }
+
+    .form-control {
+        max-width: 222px;
+        width: 100%;
+    }
+
+    .btn-primary {
+        padding: 0;
+        min-width: 48px;
+        width: 48px;
+    }
+
+   .icon-search {
+       display: block;
+   }
+
+   .label {
+       display: none;
+   }
+
+    fieldset {
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+    
+    .legend {
+        position: initial;
+        margin-bottom: 15px;
+    }
+}

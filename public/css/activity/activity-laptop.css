@@ -1,0 +1,9 @@
+@media (min-width: 1081px) and (max-width: 1438px) {
+    .activity-content {
+        flex-wrap: wrap;
+    }
+
+    .activity-column {
+        flex: 33.333%;
+    }
+ }

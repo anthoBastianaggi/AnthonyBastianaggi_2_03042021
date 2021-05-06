@@ -1,0 +1,69 @@
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.logo-reservia {
+    width: 100px;
+    height: 35.2px;
+}
+
+.navbar-collapse {
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    border-top: 3px solid #0065FC;
+}
+
+.nav-item:first-child .nav-link, .nav-item:last-child .nav-link {
+    color: #0065FC;
+}
+
+.hosting-item .nav-link:hover, .activity-item .nav-link:hover {
+    border-top: 3px solid #0065FC;
+}
+
+.nav-link {
+    display: block;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    margin-top: -16px;
+    padding-top: 30px;
+    border-top: 3px solid transparent;
+}
+
+.nav-link:hover{
+    color: #0065FC;
+}
+
+.nav-link label {
+    cursor: pointer;
+}

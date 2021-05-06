@@ -1,0 +1,128 @@
+.title {
+    margin-bottom: 0.5rem;
+    font-size: 1.35rem;
+}
+
+.subtitle {
+    margin: 0.5rem 0 1.2rem 0;
+    font-size: 0.95rem;
+}
+
+.form-group {
+    display: flex;
+}
+
+.label-search {
+    background-color: #F2F2F2;
+    border-radius: 1rem 0 0 1rem;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+}
+
+.form-control {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #004fc5;
+    border-color: #005cbf;
+}
+
+.icon-search {
+    display: none;
+}
+
+fieldset {
+    margin-top: 1rem;
+    padding-left: 4.25rem;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legend {
+    position: relative;
+    left: -4.25rem;
+    top: 2.5rem;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-tertiary {
+    display: flex;
+    padding: 10px 20px 10px 10px;
+    font-size: 1.1rem;
+    border: 1.5px solid #d9d9d9;
+    height: 48px;
+    align-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: white;
+    cursor: pointer;
+    margin: 0 15px 15px 0;
+    font-weight: bold;
+}
+
+.btn-tertiary:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.03);
+}
+
+.btn-tertiary:last-child {
+    margin-right: 0;
+}
+
+.icon {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    left: -12px;
+    position: relative;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.search-result {
+    display: flex;
+    align-items: baseline;
+    margin-top: 1rem;
+}
+
+.icon-info {
+    border: 1.5px solid #d9d9d9;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #0065FC;
+    padding: 5px 8px;
+}
+
+.result-info {
+    margin-left: 10px;
+    font-size: 0.95rem;
+}

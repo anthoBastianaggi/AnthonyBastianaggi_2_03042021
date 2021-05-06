@@ -1,0 +1,38 @@
+@media (min-width: 1081px) and (max-width: 1438px) {
+    #hosting {
+        flex-direction: column-reverse;
+    } 
+    
+    .hosting {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .hosting-header {
+        margin-bottom: 2rem;
+    }
+
+    .hosting-header h2 {
+        margin: 0;
+    }
+
+    .card {
+        flex: 31%;
+    }
+
+    .card-aside {
+        flex: auto;
+    }
+
+    .aside {
+        width: auto;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .aside .hosting-header {
+        margin-bottom: 2rem;
+    }
+ }
