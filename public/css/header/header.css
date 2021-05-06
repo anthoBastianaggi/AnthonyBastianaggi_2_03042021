@@ -32,15 +32,19 @@
     margin-left: auto;
 }
 
+input {
+    display: none;
+}
+
+input:checked + label {
+    border-top: 3px solid #0065FC;
+}
+
 .nav-item:first-child .nav-link, .nav-item:last-child .nav-link {
     color: #0065FC;
 }
 
 .hosting-item .nav-link:hover, .activity-item .nav-link:hover {
-    border-top: 3px solid #0065FC;
-}
-
-.hosting-item .nav-link.active {
     border-top: 3px solid #0065FC;
 }
 
@@ -58,4 +62,8 @@
 
 .nav-link:hover{
     color: #0065FC;
+}
+
+.nav-link label {
+    cursor: pointer;
 }
