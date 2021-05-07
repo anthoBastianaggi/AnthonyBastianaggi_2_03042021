@@ -32,43 +32,26 @@
     margin-left: auto;
 }
 
-.nav-link-account {
-    display: block;
-    padding: 1rem 2rem;
-    font-weight: 500;
-    text-decoration: none;
-    background-color: transparent;
+.nav-item:first-child .nav-link, .nav-item:last-child .nav-link {
     color: #0065FC;
-    margin-top: -16px;
-    padding-top: 30px;
-    border-top: 3px solid transparent;
+}
+
+.hosting-item .nav-link:hover, .activity-item .nav-link:hover {
+    border-top: 3px solid #0065FC;
 }
 
 .nav-link {
-    text-decoration: none;
-}
-
-#hosting-nav, #activity-nav {
-    display: none;
-}
-
-#hosting-nav:checked + label, #activity-nav:checked + label {
-    border-top: 3px solid #0065FC;
-}
-
-.label-hosting, .label-activity {
     display: block;
     padding: 1rem 2rem;
     font-weight: 500;
     text-decoration: none;
     background-color: transparent;
-    color: #0065FC;
+    color: black;
     margin-top: -16px;
     padding-top: 30px;
     border-top: 3px solid transparent;
-    cursor: pointer;
 }
 
-.label-hosting:hover, .label-activity:hover {
-    border-top: 3px solid #0065FC;
+.nav-link:hover{
+    color: #0065FC;
 }
