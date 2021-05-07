@@ -55,3 +55,20 @@
 .nav-link:hover{
     color: #0065FC;
 }
+
+@media screen and (min-width: 1500px) {
+    .header {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .logo-reservia {
+        position: relative;
+        left: -16px;
+    }
+    
+    .navbar-collapse {
+        position: relative;
+        right: -16px;
+    }
+}
